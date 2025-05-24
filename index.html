@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lightzor ofrece servicios eléctricos rápidos y confiables en Santiago, RD. Instalación de inversores, aires acondicionados, calentadores y más. Atención inmediata por WhatsApp."
+    />
+    <link rel="shortcut icon" href="image/favicon.png" type="image/.png" />
+    <link rel="apple-touch-icon" href="image/favicon.png" type="image/.png" />
+    <link rel="stylesheet" href="reset-css/reset.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Lightzor - Servicios Eléctricos</title>
+  </head>
+  <body>
+    <div class="page-contenedor">
+      <header>
+        <img src="image/logo-blanco.png" alt="logo" />
+        <img
+          src="image/favicon-sin-fondo.png"
+          alt="logo-dos"
+          class="logo-small"
+        />
+        <a href="#formulario">Cotizar Servicio Ya</a>
+      </header>
+      <main>
+        <div class="sombra">
+          <div class="section-principal">
+            <h1>Electricistas en Santiago</h1>
+            <h2>Servicio rápido, confiable y garantizado.</h2>
+          </div>
+          <div class="section-formulario">
+            <form
+              action="https://formsubmit.co/anthonydlacruz011102@gmail.com"
+              id="formulario"
+              method="post"
+            >
+              <input
+                type="hidden"
+                name="asunto"
+                value="Nueva solicitud desde Lightzor"
+              />
+              <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="hidden"
+                name="siguiente"
+                value="https://anthonydlc-0111.github.io/lightzor/gracias/gracias.html"
+              />
+              <label for="nombre"
+                >Nombre completo
+                <input
+                  type="text"
+                  name="nombre"
+                  id="nombre"
+                  placeholder="Ej: Juan Rosario"
+                  required
+                />
+              </label>
+              <label for="telefono"
+                >Teléfono
+                <input
+                  type="tel"
+                  name="telefono"
+                  id="telefono"
+                  placeholder="Ej: 8297112345"
+                  required
+                />
+              </label>
+              <label for="dirrecion"
+                >Dirección
+                <input
+                  type="text"
+                  name="direccion"
+                  id="direccion"
+                  placeholder="Ej: Los salados, cll 4, casa 22"
+                  required
+                />
+              </label>
+              <label for="servicio"
+                >Seleccione el servicio
+                <select name="servicio" id="servicio" required>
+                  <option value="inversor">Inversor</option>
+                  <option value="calentador">Calentador</option>
+                  <option value="aires-acondicionados">
+                    Aires acondicionados
+                  </option>
+                  <option value="residencial">Residencial</option>
+                  <option value="industrial">Industrial</option>
+                </select>
+              </label>
+              <label for="problema">
+                Cuentanos qué sucede?
+                <textarea
+                  name="descripcion-problema"
+                  id="problema"
+                  rows="2"
+                  placeholder="Ej: Mi aire acondicionado dejó de funcionar..."
+                  required
+                ></textarea>
+              </label>
+              <button type="submit">Solicitar cotización</button>
+              <input
+                type="hidden"
+                name="solicitud"
+                value="Nueva solicitud desde Lightzor"
+              />
+            </form>
+          </div>
+        </div>
+      </main>
+      <section class="servicios">
+        <h2>Servicios</h2>
+        <div class="servicios-cards">
+          <div class="cards">
+            <img src="icons/inversores.png" alt="ilustracion de un inversor" />
+            <span>Inversor</span>
+          </div>
+          <div class="cards">
+            <img
+              src="icons/Calentadores.png"
+              alt="ilustracion de un calentador"
+            />
+            <span>Calentador</span>
+          </div>
+          <div class="cards">
+            <img
+              src="icons/aires_acondicionados.png"
+              alt="ilustracion de aires acondicionado"
+            />
+            <span>Aires acondicionados</span>
+          </div>
+          <div class="cards">
+            <img
+              src="icons/residenciales.png"
+              alt="ilustracion de una casa o residencia"
+            />
+            <span>Residencial</span>
+          </div>
+          <div class="cards">
+            <img
+              src="icons/industrial.png"
+              alt="ilustracion de una empresa o industria"
+            />
+            <span>Industrial</span>
+          </div>
+        </div>
+      </section>
+      <section class="beneficios">
+        <h2>Por qué elegirnos?</h2>
+        <ul>
+          <li>
+            <img src="icons/correcto.png" alt="correcto" />
+            <span>Servicios certificados y garantizados.</span>
+          </li>
+          <li>
+            <img src="icons/correcto.png" alt="correcto" />
+            <span
+              >Agendamos el servicio en el día y hora que más te convenga.</span
+            >
+          </li>
+          <li>
+            <img src="icons/correcto.png" alt="correcto" />
+            <span
+              >Soluciones completas: instalación, reparación y
+              mantenimiento.</span
+            >
+          </li>
+          <li>
+            <img src="icons/correcto.png" alt="correcto" />
+            <span>Atención cercana, profesional y con trato humano.</span>
+          </li>
+          <li>
+            <img src="icons/correcto.png" alt="correcto" />
+            <span>Precios justos y sin sorpresas en la factura. </span>
+          </li>
+        </ul>
+      </section>
+      <section class="testimonios">
+        <h2>Testimonios</h2>
+        <div class="testimonios-cards">
+          <div class="cards">
+            <img src="icons/comillas.png" alt="comillas" />
+            <blockquote>
+              “Instalaron un calentador eléctrico en mi apartamento y todo quedó
+              impecable. Limpios, puntuales y buen precio.”
+            </blockquote>
+            <cite>Luis R., Villa Olga</cite>
+          </div>
+          <div class="cards">
+            <img src="icons/comillas.png" alt="comillas" />
+            <blockquote>
+              "Excelente servicio. Me instalaron el aire acondicionado en casa y
+              lo dejaron funcionando de una vez."
+            </blockquote>
+            <cite>Patricia S., Gurabito</cite>
+          </div>
+          <div class="cards">
+            <img src="icons/comillas.png" alt="comillas" />
+            <blockquote>
+              "Tenía miedo de contratar técnicos por internet, pero Lightzor fue
+              una grata sorpresa. Serios y responsables."
+            </blockquote>
+            <cite>Julio N., Ensanche Libertad</cite>
+          </div>
+          <div class="cards">
+            <img src="icons/comillas.png" alt="comillas" />
+            <blockquote>
+              "Solicité el servicio por WhatsApp y al otro día ya tenía el aire
+              instalado. ¡Un palo!"
+            </blockquote>
+            <cite>Laura V., El Dorado</cite>
+          </div>
+        </div>
+      </section>
+      <section class="cta">
+        <h2>¿Necesitas un electricista confiable hoy mismo?</h2>
+        <a
+          href="https://wa.me/18298076458"
+          title="Contactar a WhatsApp"
+          target="_blank"
+          rel="noreferrer noopener"
+          >¡Contáctanos ahora por WhatsApp!</a
+        >
+      </section>
+      <footer>
+        <img src="image/logo-blanco.png" alt="logo" />
+        <p>© 2025 Lightzor - Todos los derechos reservados.</p>
+      </footer>
+    </div>
+  </body>
+</html>

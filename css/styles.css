@@ -1,0 +1,416 @@
+.page-contenedor {
+  background-color: #f7f4ef;
+  max-width: 1500px;
+  margin: auto;
+  position: relative;
+  font-family: open_sans;
+  color: #1d1d1d;
+}
+
+header {
+  position: absolute;
+  /* background-color: lightcoral; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3.5rem 0;
+  align-items: center;
+}
+
+header .logo-small {
+  display: none;
+}
+
+header img {
+  /*  background-color: lightgoldenrodyellow; */
+  width: 10rem;
+}
+
+header a {
+  background-color: #f25c05;
+  padding: 7px 15px;
+  border-radius: 10px;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 800;
+  transition: transform 0.3s ease-in-out;
+}
+
+header a:hover {
+  transform: scale(1.1);
+}
+
+/* main */
+
+main {
+  background-image: url(../image/fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: #f7f4ef;
+}
+
+main .sombra {
+  box-shadow: 0 10px 15px 0 #1116;
+  background-color: #111a;
+  padding: 4rem 1rem 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+main .section-principal {
+  /*  background-color: lightgreen; */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+}
+
+main h1 {
+  font-family: montserrat;
+  /* background-color: lightcyan; */
+  font-size: 3rem;
+  padding: 1rem 0;
+  line-height: 3rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  word-break: keep-all;
+}
+
+main h2 {
+  font-family: montserrat;
+  font-weight: 700;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+main .section-formulario {
+  padding: 6rem 0 2rem;
+  /*   background-color: lightpink; */
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main form {
+  background-color: #f7f4ef;
+  width: 20rem;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  color: #1d1d1d;
+}
+
+main label {
+  /* background-color: lightgoldenrodyellow; */
+  padding: 6px;
+  font-weight: bold;
+}
+
+main input,
+textarea,
+button,
+select {
+  background-color: #9994;
+  width: 100%;
+  padding: 6px;
+  border-radius: 6px;
+  margin-top: 3px;
+  font-weight: normal;
+}
+
+main input::placeholder,
+textarea::placeholder {
+  font-size: 0.9rem;
+  color: #1116;
+}
+
+main button {
+  background-color: #f25c05;
+  color: #f7f4ef;
+  margin-top: 0.8rem;
+  padding: 10px;
+  font-weight: 800;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+main button:hover {
+  transform: scale(1.05);
+}
+
+/* Servicios */
+
+section h2 {
+  text-align: center;
+  padding: 3rem;
+  font-family: montserrat;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #1d1d1d;
+}
+
+.servicios {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.servicios .servicios-cards {
+  padding: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  /*  background-color: lightcyan; */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.servicios-cards .cards {
+  /* background-color: lightgoldenrodyellow; */
+  min-width: 13rem;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.servicios-cards img {
+  /* background-color: lightgreen; */
+  width: 5rem;
+  height: 5rem;
+}
+
+/* Beneficios */
+
+.beneficios {
+  max-width: 1200px;
+  /*   background-color: #1d1d1d;
+  color: #f7f4ef; */
+  margin: auto;
+  padding: 1rem;
+}
+
+/* .beneficios h2 {
+  color: #f7f4ef;
+} */
+
+.beneficios ul {
+  /*  background-color: lightgoldenrodyellow; */
+  padding: 1rem;
+  max-width: 50rem;
+  margin: auto;
+}
+
+.beneficios li {
+  /* background-color: lightcoral; */
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.beneficios img {
+  /* background-color: lightcyan; */
+  width: 3rem;
+}
+
+.beneficios span {
+  word-break: keep-all;
+}
+
+.testimonios {
+  /* background-color: lightgoldenrodyellow; */
+  max-width: 1200px;
+  margin: auto;
+}
+
+.testimonios .testimonios-cards {
+  display: flex;
+  padding: 1rem;
+  gap: 1.2rem;
+  /* background-color: lightgreen; */
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.testimonios .cards {
+  width: 17rem;
+  /* background-color: lightpink; */
+  box-shadow: 0 0 9px 0 #1113;
+  display: flex;
+  padding: 10px 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+  border-radius: 10px;
+}
+
+.testimonios img {
+  /*  background-color: lightblue; */
+  width: 3rem;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+.cta {
+  /*   background-color: lightcoral; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 9rem;
+}
+
+.cta h2 {
+  padding: 1rem 10px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.cta a {
+  background-color: #f25c05;
+  color: #f7f4ef;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cta a:hover {
+  transform: scale(1.05);
+}
+
+/* footer */
+
+footer {
+  background-color: #1d1d1d;
+  color: #f7f4ef;
+  max-width: 1500px;
+  margin: auto;
+  padding: 3rem 2rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+footer img {
+  width: 6rem;
+}
+
+footer p {
+  font-size: 0.75rem;
+}
+
+@media (max-width: 780px) {
+  main .sombra {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+  }
+
+  main {
+    background-position: center;
+  }
+
+  main .section-principal {
+    width: 100%;
+  }
+
+  main .section-formulario {
+    padding: 1rem 0;
+  }
+
+  main form {
+    min-width: 24rem;
+  }
+
+  /* Servicios */
+
+  section h2 {
+    padding: 2rem;
+  }
+
+  .servicios-cards .cards {
+    min-width: 9rem;
+    padding: 0;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 520px) {
+  header {
+    padding: 1rem;
+  }
+
+  header img {
+    display: none;
+  }
+
+  header .logo-small {
+    /* background-color: lightcoral; */
+    display: block;
+    width: 3rem;
+  }
+
+  header a {
+    height: 2.5rem;
+  }
+
+  main h1 {
+    font-size: 2.2rem;
+    padding: 0;
+    padding-top: 1rem;
+  }
+
+  main h2 {
+    font-size: 1rem;
+    word-break: keep-all;
+  }
+  main form {
+    min-width: 20rem;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+  }
+
+  .testimonios {
+    padding-bottom: 0;
+  }
+
+  .cta {
+    padding: 1rem 0 6rem;
+  }
+
+  .cta h2 {
+    word-break: keep-all;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
